@@ -6,13 +6,6 @@ jacoco {
     toolVersion = "0.7.5.201505241946"
 }
 
-jacocoTestReport {
-    reports {
-        xml.enabled false
-        csv.enabled false
-        html.destination "${buildDir}/jacocoHtml"
-    }
-}
 
 test {
     jacoco {
